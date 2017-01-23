@@ -10,7 +10,7 @@ class Config(object):
 class ProductionConfig(object):
     DEBUG = False
 
-class StaginConfig(Config):
+class StagingConfig(Config):
     DEVELOPMENT = True
     DEBUG = True
 
